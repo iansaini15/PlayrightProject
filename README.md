@@ -23,6 +23,12 @@ To run all Playwright tests:
 npx playwright test
 ```
 
+To run the demo test in headed (browser visible) mode:
+
+```bash
+npx playwright test tests/demo.test.js --headed
+```
+
 Or use the npm script:
 
 ```bash

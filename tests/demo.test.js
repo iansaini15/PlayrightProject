@@ -4,6 +4,6 @@ test('Title matches expected value', async ({ page }) => {
   await page.goto('https://iansaini.com');
   await expect(page).toHaveTitle('Ian Saini | Home');
 
-  const footer = page.locator('div');
+  const footer = page.getByText('© 2025 Ian Saini');
   await expect(footer).toBeVisible();
 });

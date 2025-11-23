@@ -1,6 +1,8 @@
 # PlayrightProject
 Project for basic verification
 
+> **Note:** The setup and test instructions below work for Windows, macOS, and Linux. Just use your system's terminal (Command Prompt, PowerShell, Terminal, etc.) with Node.js installed.
+
 ## Setup Instructions
 
 1. **Install dependencies:**
